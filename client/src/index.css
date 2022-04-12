@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.body-app {
+  background: linear-gradient(to bottom, #324, #639);
+  margin-top: 70px;
+}
+.link {
+  text-decoration: none
+}
+
+@import url('./app/styles/header.css');
+@import url('./app/styles/index.css');
+@import url('./app/styles/auth.css');
+@import url('./app/styles/private.css');
+@import url('./app/styles/quiz.css');
+@import url('./app/styles/response.css');
+
+

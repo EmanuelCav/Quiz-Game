@@ -1,0 +1,127 @@
+
+.container-getquiz {
+    height: calc(100vh - 70px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-start-play {
+    background:#fff;
+    width: 46.5%;
+    height: 78%;
+    padding: 16px;
+    position: relative;
+}
+.title-quiz-start-play {
+    word-wrap: break-word;
+    color: #639;
+    font-size: 38px;
+    user-select: none;
+}
+.by-start-play {
+    word-wrap: break-word;
+    font-size: 22px;
+    user-select: none;
+    font-weight: 600;
+    color: #639;
+}
+.text-start-play {
+    word-wrap: break-word;
+    font-size: 22px;
+    user-select: none;
+}
+.data-start-play {
+    margin-top: 12px;
+}
+.container-buttons-start-play {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    top: 80%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+}
+.button-start-play {
+    background: #639;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    padding: 12px;
+    border-radius: 8px;
+    color: #fff;
+    width: 87%;
+    cursor: pointer;
+}
+.button-start-play:hover {
+    background: #314;
+}
+.button-start-play:active {
+    background: #639;
+}
+.button-cancel-start-play {
+    background: #f00;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    padding: 12px;
+    border-radius: 8px;
+    color: #fff;
+    width: 87%;
+    cursor: pointer;
+    margin-top: 5px;
+    user-select: none;
+}
+.button-cancel-start-play:hover {
+    background: #c00;
+}
+.button-cancel-start-play:active {
+    background: #f00;
+}
+
+/* Game start */
+
+.container-question-quiz {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-title-question {
+    height: 30%;
+    width: 100%;
+    border-bottom: 1px solid #639;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.container-options {
+    width: 100%;
+    height: 70%;
+    padding: 12px;
+    display: block;
+}
+.option {
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    background: #639;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    font-size: 36px;
+    cursor: pointer;
+    margin-top: 22px;
+    user-select: none;
+}
+.option:hover {
+    background: #314;
+}
+.option:active {
+    background: #639;
+}
+

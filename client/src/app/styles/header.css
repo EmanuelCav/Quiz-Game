@@ -1,0 +1,52 @@
+
+.container-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #111;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+    z-index: 14;
+}
+
+/* LOGO */
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-game {
+    color: #fff;
+    margin-left: 8px;
+    font-size: 32px;
+    user-select: none;
+}
+
+.icon-game {
+    border-radius: 50%;
+    width: 70px;
+    user-select: none;
+}
+
+/* MORE */
+
+.container-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-more {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.log-more:hover {
+    text-decoration: underline;
+}
+.log-more:active {
+    text-decoration: none;
+}

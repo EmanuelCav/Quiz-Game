@@ -1,0 +1,15 @@
+.container-error {
+    background: #99f;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: #fff;
+}
+.message {
+    font-size: 22px;
+    user-select: none;
+    word-wrap: break-word;
+}
+.success-delete {
+    width: 50%;
+    margin-left: calc(50% - 361px + 79px/2);
+}
